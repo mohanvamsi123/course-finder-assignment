@@ -1,0 +1,24 @@
+{
+  "name": "course_finder",
+  "version": "1.0.0",
+  "description": "A sample assignment",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanvamsi123/course-finder-assignment.git"
+  },
+  "author": "Mohan Vamsi Darisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanvamsi123/course-finder-assignment/issues"
+  },
+  "homepage": "https://github.com/mohanvamsi123/course-finder-assignment#readme"
+}
