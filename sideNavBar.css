@@ -1,0 +1,64 @@
+.card {
+    width: 264px;
+    height: 900px;
+}
+
+.sideNavSuperContainer {
+    margin: 44px 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideNavContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.sideNavItem {
+    height: 32px;
+    padding-left: 32px;
+    justify-content: center;
+    gap: 4px;
+}
+
+.sideNavText {
+    color: #3B3B3B;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.sideNavData {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.activeItem {
+    border-radius: 4px;
+    background: var(--Brand-Primary, #226CF5);
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    margin: 0px 16px;
+}
+
+.activeColor {
+    color: white;
+}
+
+.sideNav {
+    border-right: 1px solid var(--Border-On-light, #EBEBEB);
+    background: var(--Surface, #FFF);
+    box-shadow: 0px 0px 16px 0px rgba(147, 147, 147, 0.04);
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(./assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+ }
+
+.title{
+  margin: 56px;
+}
+.logo-img{
+    width: 152.381px;
+    height: 16px;
+}
+.navbar{
+    height: 76px;
+    flex-shrink: 0;
+}
+input::placeholder{
+    color: #939393;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.search-bar{
+display: flex;
+width: 356px;
+padding: 8px 15px;
+align-items: center;
+gap: 12px;
+background-color: #FFF;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+border-color: inherit;
+}
+.header-link{
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+text-decoration-line: underline;
+}
+.badge{
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid rgba(250, 251, 252, 0.24);
+    padding: 10px;
+    }
+.badge-icon{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin: auto;
+background-image: url(./assets/bell.png);
+}
+.badge-img{
+border-radius: 8px;
+background-image: url(./assets/lady.png);
+background-size: cover;
+width: 44px;
+height: 44px;
+}
+.navBar-exclude-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.profile-name{
+    color: white;
+}
+.navbar-controls{
+    display: inline-flex;
+justify-content: flex-end;
+align-items: center;
+gap: 40px;
+margin:0px 40px;
+}
+.bg-danger{
+    transform: translate(-1%,-20%);
+    padding: 0.40rem;
+}

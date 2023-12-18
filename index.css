@@ -1,0 +1,36 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(./assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+ }
+#sideNavBar{
+   
+}
+.web-body{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#body{
+    width: 100%;
+}
+.btn{
+    border-radius: 4px !important;
+    border: 1px solid #226CF5 !important;
+    background: var(--Surface, #FFF) !important;
+}
+.btn-primary{
+    border-radius: 4px !important;
+background: #226CF5 !important;
+
+/* drop-shadow / button-primary */
+box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04) !important;
+}
+.btn-outline{
+    border-radius: 4px !important;
+border: 1px solid var(--Border-On-light, #EBEBEB) !important;
+background: var(--Surface, #FFF) !important;
+}
+#leftNav{
+    justify-content: flex-end;
+}
+
+
