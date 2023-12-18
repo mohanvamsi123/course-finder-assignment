@@ -1,4 +1,3 @@
-# course-finder-assignment
 
 <h2 align="center"><u>COURSE FINDER ASSIGNMENT</u></h2>
 
